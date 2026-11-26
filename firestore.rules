@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Allow public read for live esports scores, matches, rosters, and tournaments
+    match /tournaments/{tournamentId} {
+      allow read: if true;
+      allow write: if request.auth != null; // Admin dashboard
+    }
+
+    match /standings/{standingId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    match /matches/{matchId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+
+    match /teams/{teamId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
+

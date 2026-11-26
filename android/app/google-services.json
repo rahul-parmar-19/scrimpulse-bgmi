@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "645792113363",
+    "project_id": "scrimpulse-bgmi",
+    "storage_bucket": "scrimpulse-bgmi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645792113363:android:c58cde37ca9c8a1c572a26",
+        "android_client_info": {
+          "package_name": "com.scrimpulse.bgmi_companion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJeKBuMQjKiSQMxs2Wr9lFEtUcLcu9zsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

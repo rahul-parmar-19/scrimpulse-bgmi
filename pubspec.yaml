@@ -1,0 +1,49 @@
+name: scrim_pulse
+description: "ScrimPulse - Production-ready Real-time BGMI Esports Companion App"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management & Architecture
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
+  # Firebase Suite
+  firebase_core: ^3.1.0
+  cloud_firestore: ^5.0.1
+  firebase_messaging: ^15.0.1
+  flutter_local_notifications: ^17.1.2
+
+  # Live Video & Media
+  youtube_player_flutter: ^9.0.1
+
+  # High Performance Offline Caching
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.1.3
+
+  # UI, Fonts & Aesthetics
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  flutter_animate: ^4.5.0
+  font_awesome_flutter: ^10.7.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  isar_generator: ^3.1.0+1
+  build_runner: ^2.4.9
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
